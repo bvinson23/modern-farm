@@ -1,8 +1,8 @@
-const plantArray = [];
+const plantsInField = [];
 
 export const addPlant = (seedObj) => {
-    plantArray.push(seedObj)
+    plantsInField.push(seedObj)
 }
 export const usePlants = () => {
-    return plantArray
+    return plantsInField
 }
