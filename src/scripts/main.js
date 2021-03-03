@@ -1,5 +1,6 @@
 console.log("Welcome to the main module")
 
+import { addPlant } from "./field.js"
 import { createPlan } from "./plan.js"
 
 const yearlyPlan = createPlan()
@@ -17,3 +18,6 @@ console.log(createPotato)
 console.log(createSoybean)
 console.log(createSunflower)
 console.log(createWheat)
+
+const carrot = seedObj
+addPlant()
